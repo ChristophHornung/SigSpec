@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Owners>Rico Suter</Owners>
@@ -22,8 +22,8 @@
     <EmbeddedResource Include="Templates\Hub.liquid" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NJsonSchema.CodeGeneration" Version="10.7.1" />
-    <PackageReference Include="NJsonSchema.CodeGeneration.TypeScript" Version="10.7.1" />
+    <PackageReference Include="NJsonSchema.CodeGeneration" Version="11.0.2" />
+    <PackageReference Include="NJsonSchema.CodeGeneration.TypeScript" Version="11.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SigSpec.Core\SigSpec.Core.csproj" />

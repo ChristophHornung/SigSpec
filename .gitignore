@@ -10,3 +10,4 @@ _ReSharper*/
 *.DotSettings.user
 # Jetbrains Rider
 .idea/
+/.vs
